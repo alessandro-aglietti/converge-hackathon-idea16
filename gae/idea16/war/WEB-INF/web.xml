@@ -21,4 +21,13 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 		<servlet-name>TripStepServlet</servlet-name>
 		<url-pattern>/tripstep</url-pattern>
 	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ImageProxyServlet</servlet-name>
+		<servlet-class>id.ea.ImageProxyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ImageProxyServlet</servlet-name>
+		<url-pattern>/img</url-pattern>
+	</servlet-mapping>
 </web-app>
