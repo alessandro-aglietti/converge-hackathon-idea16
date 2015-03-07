@@ -34,6 +34,7 @@
 	</script>
 </head>
 <body onclick="fullscreen()">
+	<h1 id="help" style="z-index: 99; position: absolute; margin-top: 15%;">When you're ready, tap on the screen and relax!</h1>
 	<iframe id="sc-widget"
 		src="https://w.soundcloud.com/player/?url=${ts.soundCloudURI}"
 		width="100%" height="465" scrolling="no" frameborder="no"></iframe>

@@ -38,7 +38,7 @@
 					</c:forEach>
 				</ol>
 				<h1>Add new step!</h1>
-				<form method="post" action="/">
+				<form method="post" action="/add">
 					<div class="form-group">
 						<label for="input1">Name of trip step</label> <input
 							class="form-control" type="text" placeholder="name of step"

@@ -1,4 +1,5 @@
 var fullscreen = function() {
+	$("#help").hide();
 	document.body.webkitRequestFullScreen();
 	createRenderer("spheresx", TripStepModel.imageURI);
 	createRenderer("spheredx", TripStepModel.imageURI);
