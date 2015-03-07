@@ -1,10 +1,8 @@
-$(function() {
-	createRenderer("spheresx", TripStepModel.imageURI);
-	createRenderer("spheredx", TripStepModel.imageURI);
-});
-
 var fullscreen = function() {
 	document.body.webkitRequestFullScreen();
+	createRenderer("spheresx", TripStepModel.imageURI);
+	createRenderer("spheredx", TripStepModel.imageURI);
+	SC_WIDGET.play();
 }
 
 var createRenderer = function(divID, texture) {

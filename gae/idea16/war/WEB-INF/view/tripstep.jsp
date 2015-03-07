@@ -12,6 +12,7 @@
 	<script>
 		var TripStepModel = ${tsjson};
 		console.log(TripStepModel);
+		var SC_WIDGET;
 	</script>
 
 	<script src="/js/jquery-1.11.2.min.js" type="text/javascript"></script>
@@ -23,11 +24,10 @@
 	<script>	
 		$(function() {
 			var widgetIframe = document.getElementById('sc-widget');
-			var widget = SC.Widget(widgetIframe);
+			SC_WIDGET = SC.Widget(widgetIframe);
 
-			widget.bind(SC.Widget.Events.READY, function() {
-				widget.play();
-				widget.setVolume(100);
+			SC_WIDGET.bind(SC.Widget.Events.READY, function() {
+				SC_WIDGET.setVolume(100);
 				$(widgetIframe).hide();
 			});
 		});
