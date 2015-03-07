@@ -5,3 +5,18 @@ http://tiny.cc/g8ings
 
 qrcode
 https://raw.githubusercontent.com/alessandro-aglietti/converge-hackathon-idea16/master/qr.png
+
+Slides are in the Google Drive team folder
+https://drive.google.com/folderview?id=0B-udBnWnmH6JfmJWNnBKQTh4dXJnRnJnWUpnVktvNUpMdUdyNjBPdzM4cjFIVFk1SG1wa3c
+
+TECHY STUFF
+
+threejs with love and passion
+http://threejs.org/
+
+Manage HTML5 Device Orientation(http://www.html5rocks.com/en/tutorials/device/orientation/) with
+THREE.DeviceOrientationControls(http://threejs.org/examples/#misc_controls_deviceorientation)
+
+Render a 3D sphere with photosphere as texture
+THREE.ImageUtils.loadTexture
+THREE.SphereGeometry(http://threejs.org/examples/#software_geometry_earth)
